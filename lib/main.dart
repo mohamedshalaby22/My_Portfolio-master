@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
               elevation: 0.0,
               systemOverlayStyle: SystemUiOverlayStyle(
                   statusBarColor: Colors.transparent,
-                  statusBarIconBrightness: Brightness.light))),
+                  statusBarIconBrightness: Brightness.light),),),
       home: const SplashScreen(),
     );
   }
