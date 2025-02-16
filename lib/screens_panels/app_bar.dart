@@ -17,7 +17,7 @@ class AppBarPage extends StatelessWidget {
                 onPressed: () {
                   Scaffold.of(context).openDrawer();
                 },
-                icon: const Icon(Icons.menu),
+                icon: const Icon(Icons.menu,color: Colors.white,),
               ),
             ),
     );
